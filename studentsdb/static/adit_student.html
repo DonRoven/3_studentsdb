@@ -2,9 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Форма редагування Студента</title>
+    <meta name="description"
+          value="Форма редагування даних  студентів Навчального Закладу"/>
+    <!-- Include Styles -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./css/main.css">
+      <style type=”text/css”>.col-xs-2, .col-xs-5, .col-xs-3 {border:1px solid red;}</style>
+
+
+
 </head>
 <body>
+  <h1>Форма редагування Студента</h1>
 
+<table class="table table-hover table-striped">
+  <tbody class="col-xs-3">
+    <tr>
+      <td>Ім'я*</td>
+      <td><input type="text" class="form-control" placeholder="Введіть сиди Ім'я" aria-label=""></td>
+    </tr>
+    <tr>
+      <td>По-батькові</td>
+      <td><input type="text" class="form-control" placeholder="Username" aria-label="..."></td>
+    </tr>
+    <tr>
+      <td>Прізвище*</td>
+      <td><input type="text" class="form-control"  placeholder="Username"aria-label="..."></td>
+    </tr>
+    <tr>
+      <td>№ Білету*</td>
+      <td><input type="text" class="form-control"  placeholder="Username"aria-label="..."></td>
+    </tr>
+    <tr>
+      <td>Дата Народження</td>
+      <td><input type="date" class="form-control" aria-label="..."></td>
+    </tr>
+    <tr>
+      <td>Фото</td>
+      <td><input type="image" class="form-control" aria-label="..."></td>
+    </tr>
+    <tr>
+      <td>Група*</td>
+      <td>
+        <select>
+          <option value="">Виберіть групу</option>
+          <option value="">ГЛР-11, Улинець Василь</option>
+          <option value="">ГЛР-12, Глова Василь</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Додаткові Нотатки</td>
+      <td><input type="text" class="form-control" aria-label="..."></td>
+    </tr>
+  </tbody>
+
+</table>
+  <div>
+      <a class="btn btn-primary" href="#">Зберегти</a>
+      <a class="btn btn-primary" href="#">Скасувати</a>
+  </div>
+
+
+    <!-- Javascripts Section -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
